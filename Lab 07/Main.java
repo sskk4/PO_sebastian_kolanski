@@ -32,24 +32,24 @@ interface Jezdzi{
 
 class Statek extends SrodekTransportu implements Plywa{
     public void plyn(){
-        System.out.println("Plyne se");
+        System.out.println("Plyne");
     }
 }
 class Samolot extends SrodekTransportu implements Lata{
     public void lec(){
-        System.out.println("Lece se");
+        System.out.println("Lece");
     }
 }
 class Samochod extends SrodekTransportu implements Jezdzi{
     public void jedz(){
-        System.out.println("Jade se");
+        System.out.println("Jade");
     }
 }
 class Poduszkowiec extends SrodekTransportu implements Jezdzi,Plywa{
     public void jedz(){
-        System.out.println("Sune sobie po ladzie ");
+        System.out.println("Jade po ladzie ");
     }
     public void plyn(){
-        System.out.println("Sune sobie po wodze");
+        System.out.println("Plyne po wodzie");
     }
 }
